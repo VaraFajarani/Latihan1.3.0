@@ -1,0 +1,38 @@
+package Hp;
+
+/**
+ *
+ * @author acer
+ */
+public class Handphone {
+    String hidupkan;
+    String lakukanPanggilan;
+    String kirimSMS;
+    String matikan;
+   
+    
+    void printHandphone(){
+        System.out.println("Handphone hidup" + hidupkan);
+        System.out.println("Kring,kring, kkring" + lakukanPanggilan);
+        System.out.println("Dung, dung" + kirimSMS);
+        System.out.println("Handphone mati" + matikan);
+    
+    }
+}
+==========================================================================
+package Hp;
+/**
+ *
+ * @author acer
+ */
+public class HandphoneBeraksi {
+    public static void main(String[] args){
+	Handphone handphoneku = new Handphone();
+
+	 handphoneku.hidupkan = "...";
+	 handphoneku.lakukanPanggilan = "... panggilan dilakukan";
+	 handphoneku.kirimSMS = "...SMS berhasil Terkirim";
+         handphoneku.matikan = "...";
+         handphoneku.printHandphone();               
+    }
+}
