@@ -1,0 +1,19 @@
+package halo;
+
+/**
+ *
+ * @author acer
+ */
+public class HaloIndonesia {
+    
+    /**
+     *
+     * @param args
+     */
+    public static void main(String[] args) {
+        System.out.println("Helo Indonesia");
+        System.out.println("Sselamat Pagi Indonesia");
+        System.out.println("Jaya indonesia");
+    }
+    
+}
