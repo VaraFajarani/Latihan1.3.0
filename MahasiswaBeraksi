@@ -1,0 +1,38 @@
+package Mahasiswa;
+
+/**
+ *
+ * @author acer
+ */
+public class Mahasiswa {
+    String membaca;
+    int nyontek;
+    String modifikasi;
+    
+    void printMahasiswa(){
+        System.out.println("Cara membaca cepat = \n"
+                            + membaca);
+        
+        System.out.println("Ada" + nyontek + "Cara nyontek yang baik ");
+        System.out.println("Cara memodifikasi contekan agar tidak ketahuan :" + modifikasi);
+                
+    }
+}
+=========================================================================================================
+package Mahasiswa;
+
+/**
+ *
+ * @author acer
+ */
+public class MahasiswaBeraksi {
+    public static void main (String [] args) {
+        Mahasiswa mahasiswaSI = new Mahasiswa ();
+
+                  mahasiswaSI.membaca = "Novel";
+                  mahasiswaSI.nyontek = 30;
+                  mahasiswaSI.modifikasi = "ada berapa cara membaca cepat";
+                  mahasiswaSI.printMahasiswa();
+                  
+    }   
+}
