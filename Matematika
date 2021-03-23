@@ -1,0 +1,41 @@
+package Matematika;
+
+/**
+ *
+ * @author acer
+ */
+public class Matematika {
+    void pertambahan (int a, int b) {
+        System.out.println ("hasil =" + (a + b));
+        
+    }
+    void pengurangan (int a, int b) {
+        System.out.println ("hasil =" + (a - b));
+    }
+    void perkalian (int a, double b) {
+        System.out.println ("hasil =" + (a * b));
+    }
+    void pembagian (float a, float b) {
+        System.out.println ("hasil =" + (a / b));
+    
+    }
+
+   //To change body of generated methods, choose Tools | Templates.
+    }
+=====================================================================================
+    package Matematika;
+
+/**
+ *
+ * @author acer
+ */
+public class MatematikaBeraksi {
+   public static void main(String[] args){
+    Matematika matematikaseru = new Matematika ();
+        
+        matematikaseru.pertambahan (20,5);
+        matematikaseru.pengurangan (35,10);
+        matematikaseru.perkalian (6,10);
+        matematikaseru.pembagian (100,4);
+    }
+}
